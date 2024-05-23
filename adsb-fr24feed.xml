@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>adsb-fr24feed</Name>
+  <Repository>mikenye/fr24feed</Repository>
+  <Registry>https://hub.docker.com/r/mikenye/fr24feed</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://hub.docker.com/r/mikenye/fr24feed</Project>
+  <Overview>Feeds ADS-B data into https://www.flightradar24.com/&#xD;
+&#xD;
+Designed to work with the other CA application adsb-main.</Overview>
+  <Category>Tools: Other: Status:Stable</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1716488108</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="BEASTHOST" Target="BEASTHOST" Default="172.17.0.22" Mode="" Description="Required. IP/Hostname of a Mode-S/BEAST provider (dump1090)" Type="Variable" Display="always" Required="true" Mask="false">192.168.69.42</Config>
+  <Config Name="MLAT" Target="MLAT" Default="yes" Mode="" Description="Enable multilateration (optional) yes/no" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
+  <Config Name="FR24KEY" Target="FR24KEY" Default="" Mode="" Description="Required. Flightradar24 Sharing Key" Type="Variable" Display="always" Required="true" Mask="false">b686609f09717950</Config>
+  <Config Name="BEASTPORT" Target="BEASTPORT" Default="30005" Mode="" Description="Optional. TCP port number of Mode-S/BEAST provider (dump1090)" Type="Variable" Display="always" Required="false" Mask="false">30005</Config>
+  <Config Name="VERBOSE_LOGGING" Target="VERBOSE_LOGGING" Default="true" Mode="" Description="Set to true to enable verbose logging (optional)" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+</Container>
