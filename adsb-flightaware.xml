@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>adsb-piaware</Name>
+  <Repository>mikenye/piaware</Repository>
+  <Registry>https://hub.docker.com/r/mikenye/piaware/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://hub.docker.com/r/mikenye/piaware/</Project>
+  <Overview>Feeds ADS-B data into flightaware.com&#xD;
+&#xD;
+Designed to work with the other CA application adsb-main.</Overview>
+  <Category>Tools: Other: Status:Stable</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1716488823</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="TZ" Target="TZ" Default="" Mode="" Description="Local timezone in " Type="Variable" Display="always" Required="false" Mask="false">America/Chicago</Config>
+  <Config Name="RECEIVER_TYPE" Target="RECEIVER_TYPE" Default="rtlsdr" Mode="" Description="rtlsdr, relay" Type="Variable" Display="always" Required="false" Mask="false">rtlsdr</Config>
+  <Config Name="BEASTHOST" Target="BEASTHOST" Default="" Mode="" Description="Specify an external BEAST protocol provider (dump1090/readsb/etc)." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="BEASTPORT" Target="BEASTPORT" Default="30005" Mode="" Description="Specify the TCP port number of the external BEAST protocol provider." Type="Variable" Display="always" Required="false" Mask="false">30005</Config>
+  <Config Name="FEEDER_ID" Target="FEEDER_ID" Default="" Mode="" Description="Your FlightAware feeder ID (required)" Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
