@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://hub.docker.com/r/mikenye/readsb-protobuf</Project>
-  <Overview>Unraid template for mikenye/adsbhub to allow for quicker setup of these docker containers.&#xD;
+  <Overview>Unraid template for mikenye/adsbhub to allow for quicker setup of these docker containers. This is known as the "BEASTHOST", point all helper containers to this application.&#xD;
 &#xD;
 Please note, this is the dump1090 docker container. To actually share this data with various flight-sharing sites, such as flightradar24, FlightAware, adsbexchange, planefinder, etc, you will need to set up the accompanying docker containers for sharing the data.&#xD;
 &#xD;
