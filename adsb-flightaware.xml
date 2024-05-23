@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>adsb-piaware</Name>
+  <Name>adsb-flightaware</Name>
   <Repository>mikenye/piaware</Repository>
   <Registry>https://hub.docker.com/r/mikenye/piaware/</Registry>
   <Network>bridge</Network>
