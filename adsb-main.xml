@@ -28,18 +28,18 @@ planefinder.net</Overview>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1716487343</DateInstalled>
+  <DateInstalled>1716488492</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires>https://hub.docker.com/r/mikenye/readsb-protobuf</Requires>
-  <Config Name="Antenna" Target="" Default="" Mode="" Description="The path to the antena, ex: /dev/bus/usb/...&#13;&#10;&#13;&#10;Use the command 'lsusb' to help with this." Type="Device" Display="always" Required="true" Mask="false">/dev/bus/usb/001/024</Config>
+  <Config Name="Antenna" Target="" Default="" Mode="" Description="The path to the antena, ex: /dev/bus/usb/...&#13;&#10;&#13;&#10;Use the command 'lsusb' to help with this." Type="Device" Display="always" Required="true" Mask="false"/>
   <Config Name="TZ" Target="TZ" Default="UTC" Mode="" Description="Local timezone in " Type="Variable" Display="always" Required="true" Mask="false">America/Chicago</Config>
   <Config Name="READSB_DCFILTER" Target="READSB_DCFILTER" Default="true" Mode="" Description="Set to any value to apply a 1Hz DC filter to input data (requires more CPU)" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="READSB_DEVICE_TYPE" Target="READSB_DEVICE_TYPE" Default="rtlsdr" Mode="" Description="rtlsdr, bladerf, modesbeast, gnshulc or plutosdr " Type="Variable" Display="always" Required="false" Mask="false">rtlsdr</Config>
   <Config Name="READSB_FIX" Target="READSB_FIX" Default="true" Mode="" Description="Set to any value to enable bias tee on supporting interfaces" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="READSB_GAIN" Target="READSB_GAIN" Default="autogain" Mode="" Description="Set gain (in dB). Use autogain to have the container determine an appropriate gain, more on this below." Type="Variable" Display="always" Required="false" Mask="false">autogain</Config>
-  <Config Name="READSB_LAT" Target="READSB_LAT" Default="0" Mode="" Description="Lattitude of your antena" Type="Variable" Display="always" Required="true" Mask="false">41.941021</Config>
-  <Config Name="READSB_LON" Target="READSB_LON" Default="" Mode="" Description="Longitude of your antena" Type="Variable" Display="always" Required="true" Mask="false">-87.656853</Config>
+  <Config Name="READSB_LAT" Target="READSB_LAT" Default="0" Mode="" Description="Lattitude of your antena" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="READSB_LON" Target="READSB_LON" Default="" Mode="" Description="Longitude of your antena" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="READSB_MODEAC" Target="READSB_MODEAC" Default="true" Mode="" Description="Set this to any value to enable decoding of SSR Modes 3/A &amp;amp; 3/C" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="READSB_RX_LOCATION_ACCURACY" Target="READSB_RX_LOCATION_ACCURACY" Default="2" Mode="" Description="Accuracy of receiver location in metadata: 0=no location, 1=approximate, 2=exact" Type="Variable" Display="always" Required="false" Mask="false">2</Config>
   <Config Name="READSB_STATS_RANGE" Target="READSB_STATS_RANGE" Default="true" Mode="" Description="Set this to any value to collect range statistics for polar plot." Type="Variable" Display="always" Required="false" Mask="false">true</Config>

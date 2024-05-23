@@ -19,17 +19,17 @@ Designed to work with the other CA application adsb-main.</Overview>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1716487578</DateInstalled>
+  <DateInstalled>1716488386</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="TZ" Target="TZ" Default="America/Chicago" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">America/Chicago</Config>
-  <Config Name="BEASTHOST" Target="BEASTHOST" Default="" Mode="" Description="Required. IP/Hostname of a Mode-S/BEAST provider (dump1090)" Type="Variable" Display="always" Required="false" Mask="false">192.168.69.42</Config>
+  <Config Name="BEASTHOST" Target="BEASTHOST" Default="" Mode="" Description="Required. IP/Hostname of a Mode-S/BEAST provider (dump1090)" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="BEASTPORT" Target="BEASTPORT" Default="30005" Mode="" Description="Optional. TCP port number of Mode-S/BEAST provider (dump1090)" Type="Variable" Display="always" Required="false" Mask="false">30005</Config>
-  <Config Name="LAT" Target="LAT" Default="" Mode="" Description="Required. The latitude of the antenna" Type="Variable" Display="always" Required="false" Mask="false">41.941021</Config>
-  <Config Name="LONG" Target="LONG" Default="" Mode="" Description="Required. The longitude of the antenna" Type="Variable" Display="always" Required="false" Mask="false">-87.656853</Config>
+  <Config Name="LAT" Target="LAT" Default="" Mode="" Description="Required. The latitude of the antenna" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="LONG" Target="LONG" Default="" Mode="" Description="Required. The longitude of the antenna" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="ALT" Target="ALT" Default="182m" Mode="" Description="Required. The altitude of the antenna above sea level. If positive (above sea level), must include either 'm' or 'ft' suffix to indicate metres or feet. If negative (below sea level), must have no suffix, and the value is interpreted in metres." Type="Variable" Display="always" Required="false" Mask="false">182m</Config>
-  <Config Name="SITENAME" Target="SITENAME" Default="ZORD" Mode="" Description="Required. The name of your site (A-Z, a-z, -, _)" Type="Variable" Display="always" Required="true" Mask="false">ZORD</Config>
-  <Config Name="UUID" Target="UUID" Default="" Mode="" Description="Required. Your static UUID. Generate one." Type="Variable" Display="always" Required="true" Mask="false">611c1e68-5e92-409e-af65-92cb27ad9bdf</Config>
+  <Config Name="SITENAME" Target="SITENAME" Default="" Mode="" Description="Required. The name of your site (A-Z, a-z, -, _)" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="UUID" Target="UUID" Default="" Mode="" Description="Required. Your static UUID. Generate one." Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="PRIVATE_MLAT" Target="PRIVATE_MLAT" Default="" Mode="" Description="Optional. Setting this to true will prevent feeder being shown on the ADS-B Exchange Feeder Map" Type="Variable" Display="always" Required="false" Mask="false"/>
 </Container>
