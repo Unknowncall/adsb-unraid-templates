@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/166152-support-unknowncalls-docker-templates/</Support>
   <Project>https://hub.docker.com/r/mikenye/readsb-protobuf</Project>
   <Overview>Unraid template for mikenye/adsbhub to allow for quicker setup of these docker containers. This is known as the "BEASTHOST", point all helper containers to this application.&#xD;
 &#xD;
