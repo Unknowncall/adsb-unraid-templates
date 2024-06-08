@@ -22,7 +22,7 @@ radarbox.com&#xD;
 opensky-network.org&#xD;
 planefinder.net</Overview>
   <Category>Tools: Other: Status:Stable</Category>
-  <WebUI>http://[IP]:[PORT:3580]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
   <Icon/>
   <ExtraParams/>
