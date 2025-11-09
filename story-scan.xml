@@ -17,12 +17,17 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1762653220</DateInstalled>
+  <DateInstalled>1762662029</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="File Path" Target="/media-server" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Media Server/</Config>
-  <Config Name="SCAN_DIRECTORIES" Target="SCAN_DIRECTORIES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">/media-server</Config>
   <Config Name="WebUI" Target="3000" Default="3455" Mode="tcp" Description="Port at which the webui is accessible from" Type="Port" Display="always" Required="true" Mask="false">3455</Config>
+  <Config Name="SCAN_DIRECTORIES" Target="SCAN_DIRECTORIES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">/media-server</Config>
+  <Config Name="TREEMAP_MAX_NODES" Target="TREEMAP_MAX_NODES" Default="20000" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">20000</Config>
+  <Config Name="TREEMAP_MAX_DEPTH" Target="TREEMAP_MAX_DEPTH" Default="5" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">5</Config>
+  <Config Name="TREEMAP_LIGHT_THRESHOLD" Target="TREEMAP_LIGHT_THRESHOLD" Default="5000" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">5000</Config>
+  <Config Name="TREEMAP_MODERATE_THRESHOLD" Target="TREEMAP_MODERATE_THRESHOLD" Default="15000" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">15000</Config>
+  <Config Name="TREEMAP_AGGRESSIVE_THRESHOLD" Target="TREEMAP_AGGRESSIVE_THRESHOLD" Default="50000" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">50000</Config>
   <TailscaleStateDir/>
 </Container>
