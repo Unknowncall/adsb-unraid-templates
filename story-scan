@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>StoryScan</Name>
+  <Repository>ghcr.io/unknowncall/storyscan:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/166152-support-unknowncalls-docker-templates/</Support>
+  <Project>https://github.com/Unknowncall/StoryScan</Project>
+  <Overview>A stunning web-based disk analyzer for Unraid that transforms storage exploration into a visual experience. Interactive treemaps, powerful search and filtering, top 10 space hogs, directory comparison, and dark mode support. Finally, a disk analyzer that's as beautiful as it is functional.</Overview>
+  <Category/>
+  <WebUI>3455</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1762653220</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="File Path" Target="/media-server" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Media Server/</Config>
+  <Config Name="WebUI" Target="3000" Default="3455" Mode="tcp" Description="Port at which the webui is accessible from" Type="Port" Display="always" Required="true" Mask="false">3455</Config>
+  <Config Name="SCAN_DIRECTORIES" Target="SCAN_DIRECTORIES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">/media-server</Config>
+  <TailscaleStateDir/>
+</Container>
