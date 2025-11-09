@@ -22,7 +22,7 @@
   <DonateLink/>
   <Requires/>
   <Config Name="File Path" Target="/media-server" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Media Server/</Config>
-  <Config Name="WebUI" Target="3000" Default="3455" Mode="tcp" Description="Port at which the webui is accessible from" Type="Port" Display="always" Required="true" Mask="false">3455</Config>
   <Config Name="SCAN_DIRECTORIES" Target="SCAN_DIRECTORIES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">/media-server</Config>
+  <Config Name="WebUI" Target="3000" Default="3455" Mode="tcp" Description="Port at which the webui is accessible from" Type="Port" Display="always" Required="true" Mask="false">3455</Config>
   <TailscaleStateDir/>
 </Container>
