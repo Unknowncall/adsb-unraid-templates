@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>StoryScan</Name>
   <Repository>ghcr.io/unknowncall/storyscan:latest</Repository>
-  <Registry/>
+  <Registry>https://ghcr.io/unknowncall/storyscan</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
@@ -10,24 +10,24 @@
   <Support>https://forums.unraid.net/topic/166152-support-unknowncalls-docker-templates/</Support>
   <Project>https://github.com/Unknowncall/StoryScan</Project>
   <Overview>A stunning web-based disk analyzer for Unraid that transforms storage exploration into a visual experience. Interactive treemaps, powerful search and filtering, top 10 space hogs, directory comparison, and dark mode support. Finally, a disk analyzer that's as beautiful as it is functional.</Overview>
-  <Category/>
-  <WebUI>3455</WebUI>
-  <TemplateURL/>
+  <Category>Other:</Category>
+  <WebUI>http://[IP]:[PORT:3455]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/Unknowncall/adsb-unraid-templates/master/story-scan.xml</TemplateURL>
   <Icon/>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1762662029</DateInstalled>
+  <DateInstalled>1762816327</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="File Path" Target="/media-server" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Media Server/</Config>
-  <Config Name="WebUI" Target="3000" Default="3455" Mode="tcp" Description="Port at which the webui is accessible from" Type="Port" Display="always" Required="true" Mask="false">3455</Config>
   <Config Name="SCAN_DIRECTORIES" Target="SCAN_DIRECTORIES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">/media-server</Config>
   <Config Name="TREEMAP_MAX_NODES" Target="TREEMAP_MAX_NODES" Default="20000" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">20000</Config>
   <Config Name="TREEMAP_MAX_DEPTH" Target="TREEMAP_MAX_DEPTH" Default="5" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">5</Config>
   <Config Name="TREEMAP_LIGHT_THRESHOLD" Target="TREEMAP_LIGHT_THRESHOLD" Default="5000" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">5000</Config>
   <Config Name="TREEMAP_MODERATE_THRESHOLD" Target="TREEMAP_MODERATE_THRESHOLD" Default="15000" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">15000</Config>
   <Config Name="TREEMAP_AGGRESSIVE_THRESHOLD" Target="TREEMAP_AGGRESSIVE_THRESHOLD" Default="50000" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">50000</Config>
+  <Config Name="WebUI" Target="3000" Default="3455" Mode="tcp" Description="Port at which the webui is accessible from" Type="Port" Display="advanced-hide" Required="true" Mask="false">3455</Config>
   <TailscaleStateDir/>
 </Container>
