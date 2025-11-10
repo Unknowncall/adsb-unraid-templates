@@ -10,14 +10,14 @@
   <Support>https://forums.unraid.net/topic/166152-support-unknowncalls-docker-templates/</Support>
   <Project>https://github.com/Unknowncall/StoryScan</Project>
   <Overview>A stunning web-based disk analyzer for Unraid that transforms storage exploration into a visual experience. Interactive treemaps, powerful search and filtering, top 10 space hogs, directory comparison, and dark mode support. Finally, a disk analyzer that's as beautiful as it is functional.</Overview>
-  <Category>Other:</Category>
+  <Category>Productivity: Tools: Other: MediaApp:Other MediaServer:Other Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:3455]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Unknowncall/adsb-unraid-templates/master/story-scan.xml</TemplateURL>
   <Icon/>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1762816327</DateInstalled>
+  <DateInstalled>1762816394</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
